@@ -1,6 +1,7 @@
-var add = function(number1, number2){
-	return number1 + number2;
+
+
+var conversion = function (liter) {
+	return liter * 0.26417;
 };
-var number1 = parseInt(prompt("Enter a number:"));
-var number2 = parseInt(prompt("Enter another number:"));
-alert(add(number1, number2));
+var liter = parseInt(prompt("Enter liter amount:"));
+alert (conversion(liter));
